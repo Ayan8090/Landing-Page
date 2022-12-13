@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&display=swap" rel="stylesheet">
+
+  <!-- BootstrAP css link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous"
+ />
+  <!-- Fontawsome Icon link -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+ 
+ <!-- CSS Style File -->
+ 
+ <title>Signup</title>
+
+ <style>
+  :root{
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+  }
+  body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.img-slide {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-grid-container {
+            display: grid;
+      
+            /* For 2 columns */
+            grid-template-columns: auto auto;
+        }
+        img {
+            width: 100%;
+        }
+ </style>
+  </head> 
+
+<body>
+    
+<!-- Navbar  -->
+
+<nav class="navbar navbar-white bg-light">
+  <div class="container">
+    <a class="navbar-brand text-dark">StartBootstrap</a>
+    
+    <button type="button" class="btn btn-primary btn-lg">Sign up</button>
+ 
+  </div>
+</nav>
+
+
+<!-- Navbar End  -->
+ 
+  
+<!-- Header  -->
+<header >
+
+    <div class="img-slide">
+      <img src="./pexels-jaymantri-5412.jpg" style="height: 550px;" alt="...">
+      <div class="centered ">
+        <div class="text-center">
+          <h1 class="mb-5">Generate more leads with a professional landing page!</h1>
+                            
+        </div>
+      
+       <div class="d-flex justify-content-center top-0">
+        <form class="d-flex  ">
+          <input class="form-control me-2 form-control-lg" type="search" placeholder="Email Address" aria-label="Search">
+          <button type="button" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Header End  -->
+
+<!-- service Icons section  -->
+
+
+<section class="features-icons bg-light text-center">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 p-5">
+                 
+                  <img src="./Capture.PNG" class="w-50 p-3" alt="">
+                  <h3>Fully Responsive</h3>
+                  <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 p-5">
+                  
+                  <img src="./Capture1.PNG" class="w-50 p-3" alt="">
+                  <h3>Bootstrap 5 Ready</h3>
+                  <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+              </div>
+          </div>
+          <div class="col-lg-4 ">
+              <div class="features-icons-item mx-auto mb-0 mb-lg-3 p-5">
+                  
+                  <img src="./Capture3.PNG" class="w-50 p-3" alt="">
+                  <h3>Easy to Use</h3>
+                  <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <!-- Image Showcases-->
+  <section class="showcase ">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-lg-6 order-lg-2 text-white showcase-img img-fluid" >
+              <img class="img-fluid" src="./img1.PNG" alt="">
+            </div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text p-5">
+                <h2>Fully Responsive Design</h2>
+                <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-6 text-white showcase-img" >
+              <img class="img-fluid" src="./img2.PNG" alt="">
+            </div>
+            <div class="col-lg-6 my-auto showcase-text p-5">
+                <h2>Updated For Bootstrap 5</h2>
+                <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-6 order-lg-2 text-white showcase-img img-fluid" >
+              <img class="img-fluid" src="./img3.PNG" alt="">
+            </div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text p-5">
+                <h2>Easy to Use & Customize</h2>
+                <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- about section End -->
+
+<!-- Testimonials-->
+<section class="testimonials text-center bg-light p-5">
+  <div class="container">
+      <h2 class="mb-5">What people are saying...</h2>
+      <div class="row"> 
+          <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3 w-50 shadow" src="./testimonials-1.jpg" alt="..." />
+                  <h5>Margaret E.</h5>
+                  <p class="font-weight-light mb-0 ">"This is fantastic! Thanks so much guys!"</p>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3 w-50 shadow" src="./testimonials-2.jpg" alt="..." />
+                  <h5>Fred S.</h5>
+                  <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3 w-50 shadow" src="./testimonials-3.jpg" alt="..." />
+                  <h5>Sarah W.</h5>
+                  <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- call section  -->
+<div class="img-slide ">
+<img style="height: 350px;" src="./pexels-jaymantri-5412.jpg" alt="">
+
+<div class="centered ">
+  <div class="text-center">
+    <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                      
+  </div>
+
+ <div class="d-flex justify-content-center top-0">
+  <form class="d-flex  ">
+    <input class="form-control me-2 form-control-lg" type="search" placeholder="Email Address" aria-label="Search">
+    <button type="button" class="btn btn-primary">Search</button>
+  </form>
+</div>
+</div>
+</div>
+
+ <!-- Footer-->
+ <footer class="footer bg-light p-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+              <ul class="list-inline mb-2">
+                  <li class="list-inline-item"><a href="#!">About</a></li>
+                  <li class="list-inline-item">⋅</li>
+                  <li class="list-inline-item"><a href="#!">Contact</a></li>
+                  <li class="list-inline-item">⋅</li>
+                  <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                  <li class="list-inline-item">⋅</li>
+                  <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+              </ul>
+              <p class="text-muted small mb-4 mb-lg-0">&copy; Desgin by Ayan khan.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+              <ul class="list-inline mb-0">
+                  <li class="list-inline-item me-4">
+                      <a href="#!">
+                     <img src="./facebook.png" style="width: 35px;" alt="">
+                      </a>
+                  </li>
+                  <li class="list-inline-item me-4">
+                      <a href="#!">   <img src="./twitter.png" style="width: 35px;" alt=""></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="#!">   <img src="./instagram.png" style="width: 35px;" alt=""></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+  <!--  bootstrap min js link -->
+  <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+         crossorigin="anonymous"
+      ></script>
+      
+  <!-- ajax jquery link -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</body>
+</html>
